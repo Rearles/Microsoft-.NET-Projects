@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ryan Earles\\myApp\\myApp.csproj": {}
+    "C:\\Users\\Ryan Earles\\Desktop\\Microsoft-.NET-Projects\\myApp\\myApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ryan Earles\\myApp\\myApp.csproj": {
+    "C:\\Users\\Ryan Earles\\Desktop\\Microsoft-.NET-Projects\\myApp\\myApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ryan Earles\\myApp\\myApp.csproj",
+        "projectUniqueName": "C:\\Users\\Ryan Earles\\Desktop\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
         "projectName": "myApp",
-        "projectPath": "C:\\Users\\Ryan Earles\\myApp\\myApp.csproj",
+        "projectPath": "C:\\Users\\Ryan Earles\\Desktop\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
         "packagesPath": "C:\\Users\\Ryan Earles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ryan Earles\\myApp\\obj\\",
+        "outputPath": "C:\\Users\\Ryan Earles\\Desktop\\Microsoft-.NET-Projects\\myApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ryan Earles\\AppData\\Roaming\\NuGet\\NuGet.Config"
