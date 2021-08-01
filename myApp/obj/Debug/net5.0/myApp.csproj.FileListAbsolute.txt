@@ -38,3 +38,11 @@ C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5
 C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.dll
 C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\ref\myApp.dll
 C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.pdb
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.exe
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.deps.json
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.runtimeconfig.json
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.runtimeconfig.dev.json
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\ref\myApp.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.pdb
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.genruntimeconfig.cache
