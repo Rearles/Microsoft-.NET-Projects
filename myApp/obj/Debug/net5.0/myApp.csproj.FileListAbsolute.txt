@@ -30,3 +30,11 @@ C:\Users\Ryan Earles\Desktop\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myAp
 C:\Users\Ryan Earles\Desktop\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\ref\myApp.dll
 C:\Users\Ryan Earles\Desktop\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.pdb
 C:\Users\Ryan Earles\Desktop\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.genruntimeconfig.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.csproj.AssemblyReference.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.AssemblyInfoInputs.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.AssemblyInfo.cs
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.csproj.CoreCompileInputs.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\ref\myApp.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.pdb

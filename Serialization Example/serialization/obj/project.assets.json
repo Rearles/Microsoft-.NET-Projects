@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
-      "projectName": "myApp",
-      "projectPath": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\Serialization Example\\serialization\\serialization.csproj",
+      "projectName": "serialization",
+      "projectPath": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\Serialization Example\\serialization\\serialization.csproj",
       "packagesPath": "C:\\Users\\Ryan Earles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\myApp\\obj\\",
+      "outputPath": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\Serialization Example\\serialization\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ryan Earles\\AppData\\Roaming\\NuGet\\NuGet.Config"
