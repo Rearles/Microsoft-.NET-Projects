@@ -7,13 +7,36 @@ namespace myApp
 {
     class Program
     {
-        Dictionary<string, string> names = new Dictionary<string, string>();
+        /// to figure out
+        /// how to save information past one instance of .NET
+        ///keep a database or dictionary or something updated with cash information
+        ///
+       
         static void Main(string[] args)
         {
+            Dictionary<string, int[]> names = new Dictionary<string, int[]>();
             Console.WriteLine("Do you have an account with us?");
             string account = Console.ReadLine();
             if (account == "Yes" || account == "yes") {
-                
+                Console.WriteLine("What name is it under?");
+                string accountname = Console.ReadLine();
+                if (names.ContainsKey(accountname)) {
+                    Console.WriteLine("Welcome " + accountname + ". Thank you for banking with us");
+                }
+                else if (!names.ContainsKey(accountname)) {
+                    Console.WriteLine("We are sorry" + accountname + ". We can't find your records.");
+                    ///this is where I should ask if the person entered their information wrong
+                    ///or if they don't have an account with us
+                    ///and if they want to open one. 
+                }
+            }
+            else if (account == "No" || account == "no") {
+                Console.WriteLine("Do you want to open an account?");
+                string open = Console.ReadLine();
+                if (open == "Yes" || open == "yes") {
+                    
+                }
+
             }
             bool cardnum = false;
             while (cardnum == false) {
