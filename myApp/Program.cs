@@ -15,63 +15,48 @@ namespace myApp
         static void Main(string[] args)
         {
             Dictionary<string, int[]> names = new Dictionary<string, int[]>();
+            wrong:
             Console.WriteLine("Do you have an account with us?");
             string account = Console.ReadLine();
-            if (account == "Yes" || account == "yes") {
-                Console.WriteLine("What name is it under?");
-                string accountname = Console.ReadLine();
-                if (names.ContainsKey(accountname)) {
-                    Console.WriteLine("Welcome " + accountname + ". Thank you for banking with us");
-                }
-                else if (!names.ContainsKey(accountname)) {
-                    Console.WriteLine("We are sorry" + accountname + ". We can't find your records.");
-                    ///this is where I should ask if the person entered their information wrong
-                    ///or if they don't have an account with us
-                    ///and if they want to open one. 
-                }
-            }
-            else if (account == "No" || account == "no") {
-                Console.WriteLine("Do you want to open an account?");
-                string open = Console.ReadLine();
-                if (open == "Yes" || open == "yes") {
-                    
-                }
+            bool answer = Methods.GetAccount(account);
+            if (answer == true) {
+                //goto accessing that account
+                tryagain:
+                System.Console.WriteLine("Please enter your name as it would appear on the account");
+                string name = Console.ReadLine();
+                System.Console.WriteLine("Thank you " + name);
+                System.Console.WriteLine("Please enter the account number attached to " + name);
+                int num=int.Parse(Console.ReadLine());
+                bool check = Methods.AccountInformation(name, num);
+                if (check == true) { //if the information is included
 
-            }
-            bool cardnum = false;
-            while (cardnum == false) {
-                Console.WriteLine("Enter your credit card number or debit card number");
-                string ccnum = Console.ReadLine(); 
-                if (ccnum.IndexOf("4") == 0) {
-                Console.WriteLine("Your card is a Visa correct?");
-                string answer = Console.ReadLine();                
-                    if (answer == "Yes" || answer == "yes") {
-                        Console.WriteLine("Thank you for confirming for me");
-                        cardnum = true;
-                    } 
-                    else if (answer == "No" || answer == "no") {
-                        Console.WriteLine("You entered the wrong information into the system. Please try again.");
+                } else {
+                    System.Console.WriteLine("We're sorry we don't have that information, try again? Type <yes> or <no>");
+                    string sorry = Console.ReadLine();
+                    if (sorry == "yes" || sorry == "Yes") {
+                        goto tryagain;
                     } else {
-                        Console.WriteLine("You entered incorrect characters, try again");
-                    }
-                } else if (ccnum.IndexOf("5") == 0 || ccnum.IndexOf("2") == 0) {
-                    Console.WriteLine("Your card is Mastercard right?");
-                    string answer = Console.ReadLine();
-                    if (answer == "Yes" || answer == "yes") {
-                        Console.WriteLine("Thank you for confirming for me");
-                        cardnum = true;
-                    } 
-                    else if (answer == "No" || answer == "no") {
-                        Console.WriteLine("You entered the wrong information into the system. Please try again.");
-                    } else {
-                        Console.WriteLine("You entered incorrect characters, try again");
+                        goto endofscript;
                     }
                 }
+            } else if (answer == false) { //two outcomes, either they don't have an account or they entered something wrong
+                System.Console.WriteLine("Type <1> to open an account with us, type <2> if you entered incorrect information or <3> if you have no interest in opening an account");
+                string a = Console.ReadLine();
+                if (a == "1") {
+                    //go to new account creation method
+                } else if (a == "2") {
+                    goto wrong;
+                } else if (a == "3") {
+                    goto endofscript;
+                }
 
-            }
-
-
-
+            } 
+          
+            endofscript:
+            System.Console.WriteLine("Thank you for considering Ryan's ATM. Have a great day.");
+           
         }
+
+
     }
 }

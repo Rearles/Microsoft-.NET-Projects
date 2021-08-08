@@ -46,3 +46,19 @@ C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5
 C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\ref\myApp.dll
 C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.pdb
 C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.genruntimeconfig.cache
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.exe
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.deps.json
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.runtimeconfig.json
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.runtimeconfig.dev.json
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.dll
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\ref\myApp.dll
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\bin\Debug\net5.0\myApp.pdb
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.csproj.AssemblyReference.cache
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.AssemblyInfoInputs.cache
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.AssemblyInfo.cs
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.csproj.CoreCompileInputs.cache
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.dll
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\ref\myApp.dll
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.pdb
+C:\Users\Rearles\Documents\GitHub\Microsoft-.NET-Projects\myApp\obj\Debug\net5.0\myApp.genruntimeconfig.cache

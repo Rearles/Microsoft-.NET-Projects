@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ryan Earles\\.nuget\\packages\\": {}
+    "C:\\Users\\Rearles\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
+      "projectUniqueName": "C:\\Users\\Rearles\\Documents\\GitHub\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
       "projectName": "myApp",
-      "projectPath": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
-      "packagesPath": "C:\\Users\\Ryan Earles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ryan Earles\\Desktop\\Github\\Microsoft-.NET-Projects\\myApp\\obj\\",
+      "projectPath": "C:\\Users\\Rearles\\Documents\\GitHub\\Microsoft-.NET-Projects\\myApp\\myApp.csproj",
+      "packagesPath": "C:\\Users\\Rearles\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rearles\\Documents\\GitHub\\Microsoft-.NET-Projects\\myApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ryan Earles\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rearles\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
