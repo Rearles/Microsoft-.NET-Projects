@@ -29,6 +29,31 @@ namespace myApp
                 int num=int.Parse(Console.ReadLine());
                 bool check = Methods.AccountInformation(name, num);
                 if (check == true) { //if the information is included
+                    //ask if they want to check the balance or change the balance. 
+                    System.Console.WriteLine("Press <1> to check your balance, Press <2> to change your balance, or press <3> to open a new account");
+                    string here = Console.ReadLine();
+                    if (here == "1") {
+                        Tuple <int, bool> yes = Methods.CheckBalance(name, number);
+                        if (yes.Item1 == false) {
+                            System.Console.WriteLine("We are sorry, something went wrong");
+                            //something went wrong with adding their account and try again. 
+                        } else if (yes.Item2 == true) {
+                            System.Console.WriteLine("The balance for the account of  " + number + " for the name of " + name + " is {1}" yes.Item1);
+                            System.Console.WriteLine("Do you want to change your balance or open a new account or are you finished?");
+                            System.Console.WriteLine("Press <1> to change your balance, or press <2> to open a new account");
+                            string bb = Console.ReadLine();
+                            if (bb == "1") {
+                                goto balance;
+                            } else if (bb == "2") {
+                                goto tryagain;
+                            }
+                        }
+                    balance:
+                    } else if (here == "2") { //change balance
+
+                    } else if (here == "3") {
+                        goto tryagain;
+                    }
 
                 } else {
                     System.Console.WriteLine("We're sorry we don't have that information, try again? Type <yes> or <no>");
@@ -46,7 +71,9 @@ namespace myApp
                     //go to new account creation method
                     System.Console.WriteLine("I need your name to open an account with us");
                     string name = Console.ReadLine();
-                    string name, int accountnumber = Methods.CreateAccount(name); 
+                    System.Console.WriteLine("Do you want to input any money into the account?");
+                    int amount = Console.ReadLine();
+                    string name, int accountnumber = Methods.CreateAccount(name, amount); //CHECK THIS PHRASING
                 } else if (a == "2") {
                     goto wrong;
                 } else if (a == "3") {
