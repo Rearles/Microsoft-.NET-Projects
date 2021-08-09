@@ -25,7 +25,7 @@ namespace myApp
         static internal Tuple <string, int> CreateAccount(string name, int amount) { //code to create new account with a helper function
             int num = RandomDigits(10);
             names.add(name, num);
-            accountvalue.add(num, amount)
+            accountvalue.add(num, amount);
             return new Tuple<string, int>( name, num );
         }
 
@@ -52,7 +52,7 @@ namespace myApp
                 return new Tuple<int, bool>( accountvalue[accountnumber], true );
             }
         }
-        static internal bool ChangeBalance(string name, int accountnumber, int amount) {
+        static internal bool ChangeBalance(string name, int accountnumber, decimal amount) {
             if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
                 return false;
             }
@@ -60,6 +60,17 @@ namespace myApp
                 accountvalue[accountnumber] = accountvalue[accountnumber] + amount;
                 return true;
             }
+        }
+
+        static internal bool CheckAccount(string name, int accountnumber) {
+            if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+        static internal decimal Balance(int accountnumber) {
+            return accountvalue[accountnumber];
         }
         //check balance, change balance, 
     }

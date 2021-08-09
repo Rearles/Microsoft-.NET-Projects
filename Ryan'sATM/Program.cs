@@ -50,6 +50,23 @@ namespace myApp
                         }
                     balance:
                     } else if (here == "2") { //change balance
+                        System.Console.WriteLine("Do you want to check your balance before you change your balance? Press <1> for check or press <2> for change");
+                        string check = Console.ReadLine();
+                        if (check == "1") {
+
+                        } else if (check == "2") { //just want to change balance
+                           if (Methods.CheckAccount(name, num)) { //double check if the account exists
+                                System.Console.WriteLine("What do you want to add to your account? Please enter in the amount in dollars as an integer or integer with a decimal");
+                                decimal toadd = Console.ReadLine();
+                                if (Methods.ChangeBalance(name, num, toadd)) { //do the adding
+                                    decimal balanceof = Methods.Balance(num);
+                                    System.Console.WriteLine("The account " + num + " was changed to add " + toadd + " for a new total of " + balanceof);
+                                }
+
+                           }
+                           System.Console.WriteLine(); //check with user to see what they want to do next
+
+                        }
 
                     } else if (here == "3") {
                         goto tryagain;
