@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace myApp
+namespace Ryan'sATM
 {
     class Program
     {
@@ -14,7 +14,6 @@ namespace myApp
        
         static void Main(string[] args)
         {
-            Dictionary<string, int[]> names = new Dictionary<string, int[]>();
             wrong:
             Console.WriteLine("Do you have an account with us?");
             string account = Console.ReadLine();
@@ -38,7 +37,7 @@ namespace myApp
                             System.Console.WriteLine("We are sorry, something went wrong");
                             //something went wrong with adding their account and try again. 
                         } else if (yes.Item2 == true) {
-                            System.Console.WriteLine("The balance for the account of  " + number + " for the name of " + name + " is {1}" yes.Item1);
+                            System.Console.WriteLine("The balance for the account of  " + number + " for the name of " + name + " is {1} " yes.Item1);
                             System.Console.WriteLine("Do you want to change your balance or open a new account or are you finished?");
                             System.Console.WriteLine("Press <1> to change your balance, or press <2> to open a new account");
                             string bb = Console.ReadLine();
@@ -64,7 +63,7 @@ namespace myApp
                                 }
 
                            }
-                           System.Console.WriteLine(); //check with user to see what they want to do next
+                           System.Console.WriteLine("What do you want to do now? Change balance <1>, Check balance <2>, "); //check with user to see what they want to do next
 
                         }
 

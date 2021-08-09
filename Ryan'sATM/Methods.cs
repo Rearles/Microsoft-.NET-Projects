@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
-namespace myApp
+namespace Ryan'sATM
 {
     class Methods
     {
@@ -45,14 +45,14 @@ namespace myApp
             }
             
         }
-        static internal Tuple <int, bool> CheckBalance(string name, int accountnumber) {
+        static internal Tuple <int, bool> CheckBalance(string name, int accountnumber) { //helper method to check balance
             if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
                 return new Tuple<int, bool>( 0, false );
             } else {
                 return new Tuple<int, bool>( accountvalue[accountnumber], true );
             }
         }
-        static internal bool ChangeBalance(string name, int accountnumber, decimal amount) {
+        static internal bool ChangeBalance(string name, int accountnumber, decimal amount) { //helper method to change balance
             if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
                 return false;
             }
@@ -62,14 +62,14 @@ namespace myApp
             }
         }
 
-        static internal bool CheckAccount(string name, int accountnumber) {
+        static internal bool CheckAccount(string name, int accountnumber) { //helper method to check if the account exists
             if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
                 return false;
             } else {
                 return true;
             }
         }
-        static internal decimal Balance(int accountnumber) {
+        static internal decimal Balance(int accountnumber) { //helper method to return me the balance for a certain account number
             return accountvalue[accountnumber];
         }
         //check balance, change balance, 
