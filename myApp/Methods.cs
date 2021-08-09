@@ -6,8 +6,9 @@ namespace myApp
 {
     class Methods
     {
-        
-        Dictionary<string, int[]> names = new Dictionary<string, int[]>();
+        //combine these 
+        Dictionary<string, int[]> names = new Dictionary<string, int[]>(); //dictionary from string, a name, to a list of ints of account numbers 
+        Dictionary<int, int > accountvalue = new Dictionary<int, int>(); //dictionary from int acccount number to amount in it. 
         static internal bool GetAccount(string account) {
             if (account == "No" || account == "no") {
                 return false;
@@ -21,12 +22,11 @@ namespace myApp
             }
 
         }
-        static internal Tuple <int, string> CreateAccount(string name) {
-            names.add(name, )
-
-
-            return new Tuple<int, string>( infor, inputValue );
-
+        static internal Tuple <string, int> CreateAccount(string name, int amount) { //code to create new account with a helper function
+            int num = RandomDigits(10);
+            names.add(name, num);
+            accountvalue.add(num, amount)
+            return new Tuple<string, int>( name, num );
         }
 
         public int RandomDigits(int length) //to create a new bank account number
@@ -45,5 +45,22 @@ namespace myApp
             }
             
         }
+        static internal Tuple <int, bool> CheckBalance(string name, int accountnumber) {
+            if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
+                return new Tuple<int, bool>( 0, false );
+            } else {
+                return new Tuple<int, bool>( accountvalue[accountnumber], true );
+            }
+        }
+        static internal bool ChangeBalance(string name, int accountnumber, int amount) {
+            if (!names.ContainsValue(accountnumber) || !accountvalue.ContainsKey(accountnumber)) {
+                return false;
+            }
+            else {
+                accountvalue[accountnumber] = accountvalue[accountnumber] + amount;
+                return true;
+            }
+        }
+        //check balance, change balance, 
     }
 }
