@@ -21,5 +21,29 @@ namespace myApp
             }
 
         }
+        static internal Tuple <int, string> CreateAccount(string name) {
+            names.add(name, )
+
+
+            return new Tuple<int, string>( infor, inputValue );
+
+        }
+
+        public int RandomDigits(int length) //to create a new bank account number
+        {
+            aaaaaa:
+            var random = new Random();
+            string s = string.Empty;
+            for (int i = 0; i < length; i++)
+                s = String.Concat(s, random.Next(10).ToString());
+            int num=int.Parse(s);
+            if (!names.ContainsValue(num)){
+                goto aaaaaa;
+
+            } else {
+                return num;
+            }
+            
+        }
     }
 }

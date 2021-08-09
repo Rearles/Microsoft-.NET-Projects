@@ -44,6 +44,9 @@ namespace myApp
                 string a = Console.ReadLine();
                 if (a == "1") {
                     //go to new account creation method
+                    System.Console.WriteLine("I need your name to open an account with us");
+                    string name = Console.ReadLine();
+                    string name, int accountnumber = Methods.CreateAccount(name); 
                 } else if (a == "2") {
                     goto wrong;
                 } else if (a == "3") {
