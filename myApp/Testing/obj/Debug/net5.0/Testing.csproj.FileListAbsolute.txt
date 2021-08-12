@@ -1,0 +1,16 @@
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.csproj.AssemblyReference.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.AssemblyInfoInputs.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.AssemblyInfo.cs
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.csproj.CoreCompileInputs.cache
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\Testing.exe
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\Testing.deps.json
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\Testing.runtimeconfig.json
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\Testing.runtimeconfig.dev.json
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\Testing.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\ref\Testing.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\bin\Debug\net5.0\Testing.pdb
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\ref\Testing.dll
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.pdb
+C:\Users\Ryan Earles\Desktop\Github\Microsoft-.NET-Projects\myApp\Testing\obj\Debug\net5.0\Testing.genruntimeconfig.cache
